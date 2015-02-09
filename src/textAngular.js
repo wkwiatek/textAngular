@@ -1729,7 +1729,7 @@ textAngular.run([function(){
 	if (typeof module !== 'undefined' && typeof exports === 'object') {
     // Node/CommonJS style
     window.rangy = require('../node_modules/rangy/lib/rangy-selectionsaverestore');
-  };
+  }
 	if(!window.rangy){
 		throw("rangy-core.js and rangy-selectionsaverestore.js are required for textAngular to work correctly, rangy-core is not yet loaded.");
 	}else{
